@@ -4,9 +4,10 @@
 
 <div align="center">
   <br />
-  <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank">
+  <a href="https://youtu.be/KSQOPRea-P4" target="_blank">
 
-  
+  <img width="1280" height="720" alt="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of 10,000 REACT COMPONENTS (3)" src="https://github.com/user-attachments/assets/44608dad-40be-4a71-ae43-a0a76f1505d8" />
+
   </a>
   <br />
   <div>
@@ -53,7 +54,7 @@ In this comprehensive tutorial, you’ll build a modern **Developer Portfolio** 
 * 2:09:38 Animated Footer
 * 2:13:02 Deploying to Vercel
 
-🎥 Watch the full tutorial: [YouTube](https://youtu.be/YOUR_VIDEO_ID)
+🎥 Watch the full tutorial: [YouTube](https://youtu.be/KSQOPRea-P4)
 
 ---
 
