@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;;
+  
 }
 
 :root {
@@ -58,8 +60,8 @@ body {
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--accent-color);
-  text-shadow: 0 0 10px rgba(244, 114, 182, 0.3);
+  color: #fff;
+  
 }
 
 .nav-links {
@@ -69,6 +71,7 @@ body {
 }
 
 .nav-links a {
+  font-size: 25px;
   text-decoration: none;
   color: var(--text-color);
   font-weight: 500;
@@ -100,11 +103,8 @@ body {
 
 .hero {
   min-height: 100vh;
-  background: linear-gradient(
-    135deg,
-    var(--gradient-start) 0%,
-    var(--gradient-end) 100%
-  );
+ background: linear-gradient(to right, #280137, #000000);
+
 
   display: flex;
   align-items: center;
@@ -145,21 +145,23 @@ body {
 .glitch {
   font-size: 4.5rem;
   font-weight: 800;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  /* text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); */
   position: relative;
   margin-bottom: 1rem;
   line-height: 1.1;
+  color: #93e2ff;
 }
 
 .hero-subtitle {
+
   font-size: 2rem;
-  color: var(--accent-color);
+  color: #fff;
   margin-bottom: 1.5rem;
   font-weight: 600;
 }
 
 .hero-description {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
   line-height: 1.7;
 }

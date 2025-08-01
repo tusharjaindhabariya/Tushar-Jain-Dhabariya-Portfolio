@@ -40,11 +40,11 @@ export const Hero = () => {
             variants={fadeInUp}
             whileHover={{ scale: 1.02 }}
           >
-            PedroTech
+            Tushar Jain Dhabariya
           </motion.h1>
           <motion.h2 className="hero-subtitle" variants={fadeInUp}>
             {" "}
-            Creative Developer & Designer
+           Full Stack Developer
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
             I craft beautiful digital experiences that combine stunning design
@@ -72,14 +72,14 @@ export const Hero = () => {
             </motion.a>
           </motion.div>
           <motion.div className="social-links" variants={staggerContainer}>
-            <motion.a href="https://github.com" target="_blank">
+            <motion.a href="https://github.com/tusharjaindhabariya" target="_blank">
               <i className="fab fa-github"> </i>
             </motion.a>
-            <motion.a href="https://linkedin.com" target="_blank">
-              <i className="fab fa-linkedin"> </i>
+            <motion.a href="https://www.linkedin.com/in/tushar-jain-dhabariya-ab39a6282/" target="_blank">
+           <i class="fa-brands fa-linkedin"></i>
             </motion.a>
-            <motion.a href="https://twitter.com" target="_blank">
-              <i className="fab fa-twitter"> </i>
+            <motion.a href="https://www.youtube.com/@TusharDhabariyaVlogs" target="_blank">
+             <i class="fa-brands fa-youtube"></i>
             </motion.a>
           </motion.div>
         </motion.div>
@@ -105,23 +105,24 @@ export const Hero = () => {
               style={vscDarkPlus}
             >
               {`const aboutMe: DeveloperProfile = {
-  codename: "PedroTech",
-  origin: "🌍 Somewhere between a coffee shop and a terminal",
-  role: "Fullstack Web Sorcerer",
+  codename: "TusharTheDev",
+  origin: "📍 Indore, where chai meets code",
+  role: "Frontend Web Developer",
   stack: {
-    languages: ["JavaScript", "TypeScript", "SQL"],
-    frameworks: ["React", "Next.js", "TailwindCSS", "Supabase"],
+    languages: ["HTML", "CSS", "JavaScript", "C++"],
+    frameworks: ["React", "TailwindCSS", "Vite"],
   },
   traits: [
-    "pixel-perfectionist",
-    "API whisperer",
-    "dark mode advocate",
-    "terminal aesthetic enthusiast",
+    "clean-UI lover",
+    "code-doubter turned bug-slayer",
+    "design-to-deploy enthusiast",
+    "late-night debugger",
   ],
   missionStatement:
-    "Turning ideas into interfaces and bugs into feature",
-  availability: "Available for hire",
-};`}
+    "To build clean, responsive, and meaningful user experiences one component at a time.",
+  availability: "Open for internships and freelance projects",
+};
+`}
             </SyntaxHighlighter>
           </div>
 

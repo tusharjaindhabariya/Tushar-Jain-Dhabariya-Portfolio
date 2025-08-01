@@ -46,18 +46,17 @@ export const Projects = () => {
         >
           <motion.div
             className="project-image"
-            style={{ backgroundImage: "url('/projects/ai-saas.png')" }}
+            style={{ backgroundImage: "url('/projects/gemini_image.jpg')" }}
             whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
           />
-          <h3> AI SaaS Platform</h3>
+          <h3> Gemini AI Clone</h3>
           <p>
-            A modern SaaS platform built with Next.js and OpenAI integration,
-            featuring real-time AI-powered content generation and analytics.
+          Gemini AI Clone – Responsive Chat Interface Built Using Only React and CSS.
           </p>
           <div className="project-tech">
-            <span>Next.js</span>
-            <span>OpenAI</span>
-            <span>TailwindCSS</span>
+            <span>Tailwind CSS</span>
+            <span>Javascript</span>
+            <span>React JS</span>
           </div>
         </motion.div>
 
@@ -94,20 +93,19 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('/projects/stopwatch.png')",
+              backgroundImage: "url('/projects/blog_image.jpg')",
             }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Productivity Timer</h3>
+          <h3>Blog Website</h3>
           <p>
-            A sleek productivity timer application with customizable work
-            sessions, statistics tracking, and dark mode support.
+            Developed a fully functional blog platform where users can read, create, update, and delete blog posts. Implemented user authentication, RESTful APIs, and responsive design for smooth user experience.
           </p>
           <div className="project-tech">
-            <span>React</span>
-            <span>TypeScript</span>
-            <span>TailwindCSS</span>
+            <span>Mern Technolgy</span>
+            <span>JWT, Bycript.js</span>
+           
           </div>
         </motion.div>
       </motion.div>
