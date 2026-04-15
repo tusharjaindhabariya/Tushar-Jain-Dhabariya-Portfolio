@@ -17,7 +17,9 @@ export const Hero = () => {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="inline-block px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-md mb-6"
         >
-          <span className="text-sm font-medium text-white/80">Available for Internships</span>
+          <span className="text-sm font-medium text-white/80">
+            Open to Software & ML Roles
+          </span>
         </motion.div>
 
         <motion.h1
@@ -26,7 +28,7 @@ export const Hero = () => {
           transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter font-[family-name:var(--font-space-grotesk)] mb-4 text-gradient"
         >
-          Vansh Jasuja
+          Tushar Dhabariya
         </motion.h1>
 
         <motion.h3
@@ -35,7 +37,7 @@ export const Hero = () => {
           transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
           className="text-2xl md:text-3xl font-medium text-white/90 mb-6 font-[family-name:var(--font-space-grotesk)]"
         >
-          Data Science & AI/ML Student
+          Machine Learning Engineer | Software Developer
         </motion.h3>
 
         <motion.p
@@ -44,7 +46,9 @@ export const Hero = () => {
           transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
           className="text-lg md:text-xl text-white/60 max-w-3xl mb-12"
         >
-          Turning Data into Insights and Ideas into Intelligent Solutions. I am passionate about transforming raw data into meaningful insights and building intelligent applications using data analytics, visualization tools, and modern web technologies.
+          I build intelligent systems using Machine Learning and develop scalable applications.
+          Experienced in Python, Data Analysis, and real-world projects including predictive modeling.
+          Passionate about solving practical problems with data-driven solutions.
         </motion.p>
 
         <motion.div

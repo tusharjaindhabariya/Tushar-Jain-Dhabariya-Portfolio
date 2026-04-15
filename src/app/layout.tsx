@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter-custom" });
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space-custom" });
 
 export const metadata: Metadata = {
-  title: "Vansh Jasuja",
-  description: "Aspiring Data Scientist and MERN Stack Developer building data-driven solutions and modern web applications.",
+  title: "Tushar Dhabariya",
+  description: "Portfolio of Tushar Dhabariya - Machine Learning Engineer and Software Developer specializing in data-driven solutions, predictive modeling, and full-stack development.",
 };
 
 export default function RootLayout({
